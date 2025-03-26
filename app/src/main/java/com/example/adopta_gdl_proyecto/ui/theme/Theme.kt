@@ -33,6 +33,7 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
+
 @Composable
 fun AdoptagdlproyectoTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
