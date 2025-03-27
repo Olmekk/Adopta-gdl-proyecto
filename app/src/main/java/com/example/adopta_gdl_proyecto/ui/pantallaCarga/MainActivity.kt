@@ -1,6 +1,5 @@
 package com.example.adopta_gdl_proyecto.ui.pantallaCarga
 
-
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,6 +12,8 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.adopta_gdl_proyecto.ui.theme.CodiaDemoComposeUITheme
+
 
 /**
  * Created by codia-figma
@@ -36,10 +37,12 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun CodiaMainViewPreview() {
     CodiaDemoComposeUITheme {
         CodiaMainView()
     }
 }
+

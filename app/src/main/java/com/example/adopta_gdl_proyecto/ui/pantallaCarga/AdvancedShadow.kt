@@ -1,5 +1,6 @@
 package com.example.adopta_gdl_proyecto.ui.pantallaCarga
 import androidx.compose.foundation.layout.size
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.graphics.Color
@@ -9,6 +10,7 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
+@Composable
 fun Modifier.advancedShadow(
     color: Color = Color.Black,
     alpha: Float = 0f,
